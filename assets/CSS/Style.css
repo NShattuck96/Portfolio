@@ -1,0 +1,11 @@
+/* Style sheet for Portfolio */ 
+*{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+
+}
