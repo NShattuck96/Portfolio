@@ -6,6 +6,36 @@
 }
 
 .header{
+    padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: rgba(0, 183, 255, 0.678);
+    color: #fff;
+}
 
+.header div{
+    padding-top: 200px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+
+.hero {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/hero.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 500px;
+    height: 300px;
 }
