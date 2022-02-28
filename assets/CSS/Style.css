@@ -3,39 +3,58 @@
     margin: 0;
     Padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
+body{
+    background-color: #d9dcd6;
+}
 .header{
-    padding: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    padding: 25px;
     background-color: rgba(0, 183, 255, 0.678);
     color: #fff;
+    text-align: center;
 }
 
-.header div{
-    padding-top: 200px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 20px;;
-}
-
-.header div ul li {
-    display: inline-block;
+.header ul li {
+    float: right; 
+    display: flex;
     margin-left: 25px;
-    
+    font-size: large;
 }
 
 .hero {
-    height: 250px;
+    background-image: url("../images/hero.jpg");
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/hero.jpg") ;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
-    width: 500px;
-    height: 300px;
+.hero div{
+    font-size: 22px;
+}
+.About div img {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 15px; 
+}
+
+a img{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    padding: 20px; 
+}
+footer h2{
+    font-size: 30px;
+}
+
+footer ul li{
+    display: inline;
+
 }
